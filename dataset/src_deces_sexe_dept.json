@@ -1,0 +1,27 @@
+{
+	"name": "src_deces_sexe_dept",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "2021-03-19_deces_parsexe_regdept.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "\"Zone\";\"LibelleZone\";\"Total_Deces2021\";\"Femmes_Deces2021\";\"Hommes_Deces2021\";\"Total_Deces2020\";\"Femmes_Deces2020\";\"Hommes_Deces2020\";\"Total_Deces2019\";\"Femmes_Deces2019\";\"Hommes_Deces2019\";\"Date_evenement\"",
+				"type": "String"
+			}
+		]
+	}
+}
