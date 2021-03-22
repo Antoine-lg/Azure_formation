@@ -1,0 +1,27 @@
+{
+	"name": "src_deces_jour",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "2021-03-19_deces_parsexe_age_jour_France.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "\"Date_evenement\";\"Femmes_0_24ans_Deces2021\";\"Femmes_25_49ans_Deces2021\";\"Femmes_50_64ans_Deces2021\";\"Femmes_65_74ans_Deces2021\";\"Femmes_75_84ans_Deces2021\";\"Femmes_85ans_plus_Deces2021\";\"Hommes_0_24ans_Deces2021\";\"Hommes_25_49ans_Deces2021\";\"Hommes_50_64ans_Deces2021\";\"Hommes_65_74ans_Deces2021\";\"Hommes_75_84ans_Deces2021\";\"Hommes_85ans_plus_Deces2021\";\"Femmes_0_24ans_Deces2020\";\"Femmes_25_49ans_Deces2020\";\"Femmes_50_64ans_Deces2020\";\"Femmes_65_74ans_Deces2020\";\"Femmes_75_84ans_Deces2020\";\"Femmes_85ans_plus_Deces2020\";\"Hommes_0_24ans_Deces2020\";\"Hommes_25_49ans_Deces2020\";\"Hommes_50_64ans_Deces2020\";\"Hommes_65_74ans_Deces2020\";\"Hommes_75_84ans_Deces2020\";\"Hommes_85ans_plus_Deces2020\";\"Femmes_0_24ans_Deces2019\";\"Femmes_25_49ans_Deces2019\";\"Femmes_50_64ans_Deces2019\";\"Femmes_65_74ans_Deces2019\";\"Femmes_75_84ans_Deces2019\";\"Femmes_85ans_plus_Deces2019\";\"Hommes_0_24ans_Deces2019\";\"Hommes_25_49ans_Deces2019\";\"Hommes_50_64ans_Deces2019\";\"Hommes_65_74ans_Deces2019\";\"Hommes_75_84ans_Deces2019\";\"Hommes_85ans_plus_Deces2019\";\"Zone\";\"LibelleZone\"",
+				"type": "String"
+			}
+		]
+	}
+}
